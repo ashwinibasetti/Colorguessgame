@@ -1,0 +1,75 @@
+
+.container{
+    display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  vertical-align: middle;
+margin-top: 30px;
+background-color:burlywood;
+border-radius: 30px;
+
+}
+
+.container1{
+    background-color: cadetblue;
+}
+
+h1{
+
+   text-align: center;
+  
+} 
+    
+#button{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+     margin-top: 110px;
+}
+
+.colorbutton{
+    width:60px;
+    height: 60px;
+    border: none;
+    margin: 10px;
+    border-radius: 50%; 
+    background-color: crimson;
+}
+
+#colorvalue{
+    text-align: center;
+}
+
+#Answer{
+    text-align: center;
+}
+
+#reset{
+    text-align: center;
+    border-radius: 2px;
+    color:white;
+    
+}
+/*style for reset game button*/
+#resetbutton{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: medium;
+    font-style:inherit;
+}
+
+#time{
+    margin-right: 30px;
+    font-size: 20pt;
+    text-align: right;
+    color: black;
+    margin-top: 30px;
+}
